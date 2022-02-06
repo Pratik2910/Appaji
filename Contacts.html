@@ -6,11 +6,9 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" 
-    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" 
-    integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+  </head>
 
 <body>
   <section class="sub-header">
@@ -36,32 +34,34 @@
   <section class="Contact">
     <div class="row">
       <div class="contacts-col">
-        <i class="fa fa-home"></i>
+        <i class="fas fa-home"></i>
         <span>
           <h5>Santoshi Mata Nagar</h5>
           <p>Mehkar,Buldhana,Maharashtra,IN</p>
         </span>
       </div>
       <div >
-        <i class="fa fa-phone"></i>
+        <i class="fas fa-phone"></i>
         <span>
           <h5>7350024284</h5>
-          <p>Monday to Saturday,8AM to 8PM</p>
+          <p>Monday to Sunday,8AM to 8PM</p>
         </span>
       </div>
       <div>
-        <i class="fa fa-envelope-o"></i>
+        <i class="fas fa-envelope"></i>
         <span>
           <h5>appajifoods@gmail.com</h5>
           <p>Email Us</p>
         </span>
       </div>
+      <br>
       <div class="contacts-col">
+        <h3>Contact Us</h3>
         <form action="Form-Handler.php" method="post">
-          <input type="text" name="name" placeholder="Enter Your Name" required>
-          <input type="email" name="email" placeholder="Enter email Address" required>
-          <input type="text" name="subject" placeholder="Enter Your subject" required>
-          <textarea rows="8" name="message" placeholder="Message" required></textarea>
+         <i class="fas fa-name"></i> <input class="fa fa-name" type="text" name="name" placeholder="Enter Your Name" required>
+          <input class="fa fa-email" type="email" name="email" placeholder="Enter email Address" required>
+          <input class="fa fa-subject" type="text" name="subject" placeholder="Enter Your subject" required>
+          <textarea class="fa fa-message" rows="8" name="message" placeholder="Message" required></textarea>
           <button type="submit" class="hero-btn red-btn" color="Black">Send Message</button>
         </form>
       </div>
@@ -76,15 +76,15 @@
       <div class="row">
         <div class="contact-col">
           <h3>Address</h3>
-          <p>Appaji Foods,Mehkar</p>
+          <p class="fas fa-home">Appaji Foods,Mehkar</p>
         </div>
         <div class="contact-col">
           <h3>Phone</h3>
-          <p>7350024284</p>
+          <p class="fas fa-phone">7350024284</p>
         </div>
         <div class="contact-col">
           <h3>Email</h3>
-          <p>appajifoods@gmail.com</p>
+          <p class="fas fa-envelope">appajifoods@gmail.com</p>
         </div>
         <div class="contact-col">
           <h3>OPENING HOURS</h3>
@@ -144,6 +144,14 @@
         </div>
       </div>
     </div>
+  </section>
+  <section class="social">
+    <a href="#" class="fab fa-facebook-f"></a>
+    <a href="#" class="fab fa-twitter"></a>
+    <a href="#" class="fab fa-instagram"></a>
+    <a href="#" class="fab fa-linkedin"></a>
+    <a href="#" class="fab fa-pinterest"></a>
+    <h5>© 2022 APPAJI FOODS. ALL RIGHTS RESERVED | DESIGN BY Pratik Rajurkar</h5>
   </section>
 
 </body>
