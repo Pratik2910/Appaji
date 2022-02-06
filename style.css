@@ -329,3 +329,25 @@ h3{
     outline: none;
     border: 1px solid #ccc;
 }
+.social{
+    min-height: 20hv;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: #000;
+    text-align: center;
+    color: #ccc ;
+}
+.social a{
+    
+    height: 5rem;
+    width: 3rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: White;
+    margin:.3rem;
+    border-radius: 50%;
+    text-align: center; 
+    margin-left: 10px;
+}
