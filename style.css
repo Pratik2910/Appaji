@@ -340,12 +340,11 @@ h3{
     color: #ccc ;
 }
 .social a{
-    
     height: 5rem;
     width: 3rem;
     line-height: 5rem;
     font-size: 2rem;
-    color: White;
+    color: rgb(252, 241, 241);
     margin:.3rem;
     border-radius: 50%;
     text-align: center; 
