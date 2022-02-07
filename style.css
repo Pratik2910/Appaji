@@ -15,9 +15,10 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    
 }
 nav img{
-    width: 150px;
+    width: 200px;
 }
 .nav-links{
     flex: 1;
@@ -72,13 +73,13 @@ nav img{
     padding: 12px 34px;
     font-size: 13px;
     background: white;
-    position: relative;
+    position: center;
     cursor: pointer;
    
 }
 .hero-btn:hover{
     border: 1px solid #f44336;
-    background: #f44336 ;
+    background: greenyellow ;
     transition: 1s;
 }
 .knowus{
@@ -340,13 +341,97 @@ h3{
     color: #ccc ;
 }
 .social a{
+    
     height: 5rem;
     width: 3rem;
     line-height: 5rem;
     font-size: 2rem;
-    color: rgb(252, 241, 241);
+    color: White;
     margin:.3rem;
     border-radius: 50%;
     text-align: center; 
     margin-left: 10px;
+}
+#menu-btn{
+    display: none;
+}
+@media (max-width:768px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+}
+.menu{
+        width: 97%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+        background-color: white;
+        
+}
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    /*grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));*/
+    gap:1rem;
+    position: inherit;
+}
+
+.menu .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border); 
+    border-color: #000;   
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box h3{
+    color: black;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.menu .box-container .box .price{
+    color: black;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.menu .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.menu .box-container .box:hover{
+    background: rgb(252, 248, 240);
+}
+
+/*.menu .box-container .box:hover > *{
+    color:var(--black);
+}*/
+.heading{
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span{
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+/*Order Form*/
+.Order input, .Order textarea{
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    align-content: center;
+    margin-left: 25%;
 }
