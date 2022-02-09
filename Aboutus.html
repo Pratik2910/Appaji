@@ -14,15 +14,17 @@
   <section class="sub-header">
     <nav class="navbar bg-dark navbar-dark navbar-expand-lg">
       <a href="index.html"><img src="Images/LOGOO.png"></a>
-      <div class="nav-links">
+      <div class="nav-links" id="navlinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="Aboutus.html">ABOUT</a></li>
           <li><a href="Products.html">PRODUCTS</a></li>
           <li><a href="Contacts.html">CONTACT </a></li>
-          <li><a href="Order.html">SHOP NOW <i  class="fas fa-shopping-cart"></i></a></li>
+          <li><a href="Order.html">SHOP NOW <i  class="fa fa-shopping-cart"></i></a></li>
         </ul>
       </div>
+      <div class="fas fa-bars" id="menu-btn"  onclick="showMenu()"></div>
     </nav>
     <h1>About Us</h1>
   </section>
@@ -137,7 +139,16 @@
     <a href="#" class="fab fa-pinterest"></a>
     <h5>© 2022 APPAJI FOODS. ALL RIGHTS RESERVED | DESIGN With &#9825; BY Pratik Rajurkar</h5>
   </section>
+   <!-------------------------jscript-->
+   <script>
+    var navlinks =document.getElementById("navlinks");
+    function showMenu(){
+      navlinks.style.right ="0";
+    }
+    function hideMenu(){
+      navlinks.style.right ="-200px"
+    }
+  </script>
 
 </body>
-
 </html>
