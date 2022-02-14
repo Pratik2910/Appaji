@@ -26,7 +26,7 @@
       </div>
       <div class="fas fa-bars" id="menu-btn"  onclick="showMenu()"></div>
     </nav>
-    <h1>Our Popular Products</h1>
+    <h1>Our  Products</h1>
   </section>
 
   <!------------Aboutus content----------->
@@ -54,28 +54,28 @@
             <div class="box">
                 <img src="Images/TWIST.jpg" alt="">
                 <h3>Twist Khari</h3>
-                <div class="price">$15.99 <span>20.99</span></div>
+                <div class="price">$25.99 <span>30.99</span></div>
                 <input type="number" value="0" max="40" min="0" name="twist" placeholder="Enter No. of Packets" >
             </div>
     
             <div class="box">
                 <img src="Images/virakkhari.jpg" alt="">
                 <h3>Virat Khari</h3>
-                <div class="price">$15.99 <span>20.99</span></div>
+                <div class="price">$20.99 <span>25.99</span></div>
                 <input type="number" value="0" max="40" min="0" name="virat" placeholder="Enter No. of Packets" >
             </div>
     
             <div class="box">
                 <img src="Images/googlymaska.jpg" alt="">
                 <h3>Googly Butter</h3>
-                <div class="price">$15.99 <span>20.99</span></div>
+                <div class="price">$10.99 <span>15.99</span></div>
                 <input type="number" value="0" max="40" min="0" name="googly" placeholder="Enter No. of Packets"  >
             </div>
     
             <div class="box">
                 <img src="Images/MASKAKS.jpg" alt="">
                 <h3>Maska Khari</h3>
-                <div class="price">$15.99 <span>20.99</span></div>
+                <div class="price">$25.99 <span>30.99</span></div>
                 <input type="number" value="0" max="40" min="0" name="maska" placeholder="Enter No. of Packets" >
             </div>
              </div>
@@ -130,7 +130,7 @@
         </div>
         <div class="contact-col">
           <h3>OPENING HOURS</h3>
-          <p>
+          <p style="margin: 20%;">
           <table cellpadding="20" cellspacing="10">
             <tr>
               <th>Working Day</th>
@@ -169,7 +169,7 @@
         </div>
         <div class="contact-col">
           <h3>Navigation</h3>
-          <p>
+          <p style="margin: 10%;">
           <ul style="list-style-type:none;">
             <li><a href="index.html">HOME</a></li>
             <li><a href="Aboutus.html">ABOUT</a></li>
@@ -198,14 +198,15 @@
   </section>
   <!-------------------------jscript-->
   <script>
-    var navlinks =document.getElementById("navlinks");
-    function showMenu(){
-      navlinks.style.right ="0";
+    var navlinks = document.getElementById("navlinks");
+    function showMenu() {
+      navlinks.style.top="0";
     }
-    function hideMenu(){
-      navlinks.style.right ="-200px"
+    function hideMenu() {
+      navlinks.style.top ="-500%"
     }
   </script>
+  
 </body>
 
 </html>
