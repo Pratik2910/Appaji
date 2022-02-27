@@ -6,109 +6,111 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-     
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
 
 <body>
   <section class="sub-header">
     <nav class="navbar bg-dark navbar-dark navbar-expand-lg">
       <a href="index.html"><img src="Images/LOGOO.png"></a>
       <div class="nav-links" id="navlinks">
-        <i class="fas fa-times" onclick="hideMenu()"></i> 
+        <i class="fas fa-times" onclick="hideMenu()"></i>
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="Aboutus.html">ABOUT</a></li>
           <li><a href="Products.html">PRODUCTS</a></li>
           <li><a href="Contacts.html">CONTACT </a></li>
-          <li><a href="Order.html">SHOP NOW <i  class="fa fa-shopping-cart"></i></a></li>
+          <li><a href="Order.html">SHOP NOW <i class="fa fa-shopping-cart"></i></a></li>
         </ul>
       </div>
-      <div class="fas fa-bars" id="menu-btn"  onclick="showMenu()"></div>
+      <div class="fas fa-bars" id="menu-btn" onclick="showMenu()"></div>
     </nav>
-    <h1>Our  Products</h1>
+    <h1>Our Products</h1>
   </section>
 
   <!------------Aboutus content----------->
   <div class="Order">
-    <form  method="post" name="google-sheet" class="action">
-    
-       <!----------------------------------------bbbb--------------------------------->
-       <section class="menu" id="menu" >
+    <form method="post" name="google-sheet" class="action">
+
+      <!----------------------------------------bbbb--------------------------------->
+      <section class="menu" id="menu">
         <div class="box-container">
-    
-            <div class="box">
-                <img src="Images/teatoaast1.jpg" alt="">
-                <h3>Tea Toast</h3>
-                <div class="price">$10<span>12.99</span></div>
-                <input type="number" value="0" max="40" min="0" name="teatoast" placeholder="Enter No. of Packets" >
-            </div>
-    
-            <div class="box">
-                <img src="Images/tiktokkhari1.jpg" alt="">
-                <h3>Tik-Tok Khari</h3>
-                <div class="price">$10<span>12.99</span></div>
-                <input type="number" value="0" max="40" min="0" name="tiktokkhari" placeholder="Enter No. of Packets" >
-            </div>
-    
-            <div class="box">
-                <img src="Images/TWIST.jpg" alt="">
-                <h3>Twist Khari</h3>
-                <div class="price">$25.99 <span>30.99</span></div>
-                <input type="number" value="0" max="40" min="0" name="twist" placeholder="Enter No. of Packets" >
-            </div>
-    
-            <div class="box">
-                <img src="Images/virakkhari.jpg" alt="">
-                <h3>Virat Khari</h3>
-                <div class="price">$20.99 <span>25.99</span></div>
-                <input type="number" value="0" max="40" min="0" name="virat" placeholder="Enter No. of Packets" >
-            </div>
-    
-            <div class="box">
-                <img src="Images/googlymaska.jpg" alt="">
-                <h3>Googly Butter</h3>
-                <div class="price">$10.99 <span>15.99</span></div>
-                <input type="number" value="0" max="40" min="0" name="googly" placeholder="Enter No. of Packets"  >
-            </div>
-    
-            <div class="box">
-                <img src="Images/MASKAKS.jpg" alt="">
-                <h3>Maska Khari</h3>
-                <div class="price">$25.99 <span>30.99</span></div>
-                <input type="number" value="0" max="40" min="0" name="maska" placeholder="Enter No. of Packets" >
-            </div>
-             </div>
-    </section>
+
+          <div class="box">
+            <img src="Images/teatoaast1.jpg" alt="">
+            <h3>Tea Toast</h3>
+            <div class="price">$10<span>12.99</span></div>
+            <input type="number" value="0" max="40" min="0" name="teatoast" placeholder="Enter No. of Packets">
+          </div>
+
+          <div class="box">
+            <img src="Images/tiktokkhari1.jpg" alt="">
+            <h3>Tik-Tok Khari</h3>
+            <div class="price">$10<span>12.99</span></div>
+            <input type="number" value="0" max="40" min="0" name="tiktokkhari" placeholder="Enter No. of Packets">
+          </div>
+
+          <div class="box">
+            <img src="Images/TWIST.jpg" alt="">
+            <h3>Twist Khari</h3>
+            <div class="price">$25.99 <span>30.99</span></div>
+            <input type="number" value="0" max="40" min="0" name="twist" placeholder="Enter No. of Packets">
+          </div>
+
+          <div class="box">
+            <img src="Images/virakkhari.jpg" alt="">
+            <h3>Virat Khari</h3>
+            <div class="price">$20.99 <span>25.99</span></div>
+            <input type="number" value="0" max="40" min="0" name="virat" placeholder="Enter No. of Packets">
+          </div>
+
+          <div class="box">
+            <img src="Images/googlymaska.jpg" alt="">
+            <h3>Googly Butter</h3>
+            <div class="price">$10.99 <span>15.99</span></div>
+            <input type="number" value="0" max="40" min="0" name="googly" placeholder="Enter No. of Packets">
+          </div>
+
+          <div class="box">
+            <img src="Images/MASKAKS.jpg" alt="">
+            <h3>Maska Khari</h3>
+            <div class="price">$25.99 <span>30.99</span></div>
+            <input type="number" value="0" max="40" min="0" name="maska" placeholder="Enter No. of Packets">
+          </div>
+        </div>
+      </section>
 
 
 
 
 
 
-  <!----------------------------------------bbbb--------------------------------->
-  <h3>Place Your Order</h3>
-  
-    <input  type="text" name="name" placeholder="Enter Your Name" required>
-     <input  type="email" name="email" placeholder="Enter email Address" >
-     <input type="tel" name="phone" placeholder="Enter Your Contact number" required>
-     <input type="address" name="address" placeholder="Enter Your Address">
-     <textarea  name="message" placeholder="If any Message" ></textarea>
+      <!----------------------------------------bbbb--------------------------------->
+
+      <h3>Place Your Order</h3>
+
+      <input type="text" name="name" placeholder="Enter Your Name" required>
+      <input type="email" name="email" placeholder="Enter email Address">
+      <input type="tel" name="phone" placeholder="Enter Your Contact number" required>
+      <input type="address" name="address" placeholder="Enter Your Address">
+      <textarea rows="4" name="message" placeholder="If any Message"></textarea>
       <button type="submit" class="hero-btn red-btn" color="Black">Submit Order</button>
     </form>
-  </div>
-</div>
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzEUjypm_42bxmY8fYt7QE4qFEJvrKCLhhZ14PRgEBoXn2ndKuzfZ92HzheJBiP7KL_/exec'
-  const form = document.forms['google-sheet']
 
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => alert("Thanks for Connecting us..! Your Order will proceed Soon..."))
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+  </div>
+  </div>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzEUjypm_42bxmY8fYt7QE4qFEJvrKCLhhZ14PRgEBoXn2ndKuzfZ92HzheJBiP7KL_/exec'
+    const form = document.forms['google-sheet']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => alert("Thanks for Connecting us..! Your Order will proceed Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
   <!--------------------KNOWUS---------------------->
   <!-------------Products------------->
   <!----------------Contact-------------->
@@ -138,31 +140,31 @@
             </tr>
             <tr>
               <td><b>Sunday</b></td>
-              <td>5 AM To 11.30PM</td>
+              <td>8 AM To 11.30PM</td>
             </tr>
             <tr>
               <td><b>Monday</b></td>
-              <td> 5 AM To 11.30PM </td>
+              <td> 8 AM To 11.30PM </td>
             </tr>
             <tr>
               <td><b>Tuesday</b></td>
-              <td> 5 AM To 11.30PM </td>
+              <td> 8 AM To 11.30PM </td>
             </tr>
             <tr>
               <td><b>Wednesday</b></td>
-              <td>5 AM To 11.30PM </td>
+              <td>8 AM To 11.30PM </td>
             </tr>
             <tr>
               <td><b>Thrusday</b></td>
-              <td> 5 AM To 11.30PM </td>
+              <td> 8 AM To 11.30PM </td>
             </tr>
             <tr>
               <td><b>Friday</b></td>
-              <td> 5 AM To 11.30PM </td>
+              <td> 8 AM To 11.30PM </td>
             </tr>
             <tr>
               <td><b>Saturday</b></td>
-              <td> 5 AM To 5PM </td>
+              <td> 8 AM To 5PM </td>
             </tr>
           </table>
           </p>
@@ -175,38 +177,38 @@
             <li><a href="Aboutus.html">ABOUT</a></li>
             <li><a href="Products.html">PRODUCTS</a></li>
             <li><a href="Contacts.html">CONTACT </a></li>
-            <li><a href="Order.html">SHOP NOW <i  class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="Order.html">SHOP NOW <i class="fas fa-shopping-cart"></i></a></li>
           </ul>
           </p>
         </div>
         <div class="contact-col">
           <h4>
-           Our amazing products are loved by our customers and come with great recommendations.
-        </h4>
-        <h1><a href="#"><img src="Images/LOGOO.png" width="200px" height="150px""></a></h1>
+            Our amazing products are loved by our customers and come with great recommendations.
+          </h4>
+          <h1><a href="#"><img src="Images/LOGOO.png" width="200px" height="150px""></a></h1>
         </div>
       </div>
     </div>
   </section>
-  <section class="social">
-    <a href="#" class="fab fa-facebook-f"></a>
-    <a href="#" class="fab fa-twitter"></a>
-    <a href="#" class="fab fa-instagram"></a>
-    <a href="#" class="fab fa-linkedin"></a>
-    <a href="#" class="fab fa-pinterest"></a>
-    <h5>© 2022 APPAJI FOODS. ALL RIGHTS RESERVED | DESIGN With &#9825; by Pratik Rajurkar</h5>
+  <section class=" social">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+              <a href="#" class="fab fa-pinterest"></a>
+              <h5>© 2022 APPAJI FOODS. ALL RIGHTS RESERVED | DESIGN With &#9825; by Pratik Rajurkar</h5>
   </section>
   <!-------------------------jscript-->
   <script>
     var navlinks = document.getElementById("navlinks");
     function showMenu() {
-      navlinks.style.top="0";
+      navlinks.style.top = "0";
     }
     function hideMenu() {
-      navlinks.style.top ="-500%"
+      navlinks.style.top = "-500%"
     }
   </script>
-  
+
 </body>
 
 </html>

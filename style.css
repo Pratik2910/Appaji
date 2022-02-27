@@ -3,7 +3,11 @@
     padding: 0;
 }
 /*--------------Header---------------------------------*/
+#body{
+    overflow-x: hidden;
+}
 .header{
+  
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/store.jpg);
@@ -80,7 +84,7 @@ nav img{
 }
 .hero-btn:hover{
     border: 1px solid #f44336;
-    background: greenyellow ;
+    background: lightcoral ;
     transition: 1s;
 }
 nav .fas{
